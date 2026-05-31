@@ -1,0 +1,70 @@
+ Add a separate QR Menu Order page inside my existing Rivera Restaurant website.
+
+Do not remove the existing website.
+
+Create a new route/page:
+/menu
+
+This /menu page should work as a mobile-first digital menu for restaurant table ordering.
+
+Features:
+1. Customer can scan QR and directly open /menu
+2. Show Rivera logo and heading:
+   “Rivera Digital Menu”
+3. Add search bar
+4. Add category filters:
+   Beverage, Chef Special Tandoor, Global Appetizers, Indian Appetizers, Soup, Salad & Associates, Mini Meals, Indian Main Course, Indian Breads, House of Basmati, Dessert, Others
+5. Show food cards with:
+   item name
+   description
+   price
+   veg icon
+   add button
+6. Cart system:
+   add item
+   increase quantity
+   decrease quantity
+   remove item
+   show total
+7. Customer form:
+   name
+   mobile number
+   table number
+   special instructions
+8. Place Order button:
+   Open WhatsApp with full formatted order message to:
+   9040018686
+9. WhatsApp message format:
+   New Order from Rivera QR Menu
+   Name:
+   Mobile:
+   Table No:
+   Items:
+   Quantity:
+   Price:
+   Total:
+   Instructions:
+10. Add Call Waiter button
+11. Add Request Bill button
+12. Add Give Review button
+13. Add Scratch Reward message:
+   “Review dein aur next order par 5% OFF paayen”
+14. Design:
+   premium black + gold + dark green + cream
+   simple for Indian customers
+   mobile-first
+   fast loading
+15. Add menu data in a separate file:
+   src/data/menu.ts
+   so I can edit item names and prices easily later.
+16. Add a button on main website navbar:
+   “Digital Menu”
+   linking to /menu
+17. Add hero section button:
+   “Scan / View Menu”
+   linking to /menu
+18. Make it work with React + Vite and Cloudflare Pages.
+
+Important:
+Existing home page should remain unchanged.
+Only add /menu page and required components. please remove hero image or correct them back side text visible in hero image and add animation in image also upper rivera name crop in header footer correct them old hindi is good in this too much hindi change hindi to last one hindi add scratch cards logo and digital scan card inside card 5% off below 1000rs, 2%off below 2000rs this type diff, diff discount add logo downside on rivera and their is photo and text croped in mobile so correct them make the website correct mobile friendly and add professnal annimation in all website spacelly in menu section and update this photo in menu section such as 1.Roasted peanuts in rustic setting 2.Decadent brownie with ice cream sizzle 3.Rasmalai with pistachio and saffron 4.Vegetable pulao with vibrant spices 5.Stacks of golden flatbreads with butter 6.Vibrant vegetable curry with garnish 7.Assorted Indian snack mix platter 8.Papad topped with fresh salsa 9.Gulab jamun with rose and pistachios 10.Fluffy rice with spices and herbs 11.Steaming rice with fresh cilantro garnish 12.Vegetable pulao with vibrant spices 13.Warm flatbread stack on rustic table 14.Rich curry with paneer and vegetables 15.Rustic vegetable biryani with garnishes 16.Layered parathas with yogurt and herbs 17.Golden naan and herbs in basket 18.Paneer curry with naan and onion 19.Dal makhani with naan and garnish 20.Vanilla ice cream with mint and vanilla beans add this photo in related menu and dont crop any photo in mobile reation make a all the photo and websites mobile friendly
